@@ -1,0 +1,140 @@
+/* 样式重置 */
+body,ul,li,p,h1,h2,h3,h4,h5,h6,img,br,hr,table,tr,td,dl,dt,dd,form {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: Arial,"微软雅黑";
+	font-size: 12px;
+	color: #080808;
+}
+.clear {
+	clear: both;
+	font-size: 0px;
+}
+ul,li {
+	list-style: none;
+}
+img {
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+/* 公共样式 */
+.w{
+    width: 1000px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+
+/* 头部、脚部样式 */
+header{
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid #d5d0cc;
+    overflow: hidden;
+}
+header>div>div{
+    float: left;
+}
+.logo{
+    width: 132px;
+    height: 50px;
+    margin-top: 8px;
+}
+.logo img{
+   width: 100%;
+}
+.nav{
+    /* margin-left: ; */
+    height: 75px;
+    line-height: 75px;
+    margin-left: 65px;
+}
+.nav span{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nav .sty{
+    color: #fe4b4f;
+}
+.right{
+    margin: 20px 0px;
+    overflow: hidden;
+}
+.right .login{
+    float: right;
+    width: 52px;
+    height: 32px;
+    border: 1px solid #f8563d;
+    color: #f8563d;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: 15px;
+    padding: 0px;
+}
+.right span:first-child{
+    float: left;
+    width: 25px;
+    height: 25px;
+    color: #6b6b6b;
+    font-size: 25px;
+    padding-top: 3px;
+}
+
+
+footer{
+    height: 360px;
+    background-color: #505050;
+    padding-top: 40px;
+    position: relative;
+}
+footer>div{
+    overflow: hidden;
+}
+footer>div>div{
+    float: left;
+    margin-right: 30px;
+    color: #9a9ea7;
+}
+footer>div>div>h3{
+    margin-bottom: 30px;
+    color: #f8ffff;
+    font-weight: 500;
+}
+footer>div>div>div{
+    margin-bottom: 15px;
+    
+}
+footer .one img{
+    width: 160px;
+    height: 160px;
+
+}
+
+footer .four span{
+    display: inline-block;
+    width: 70px;
+
+}
+footer>p{
+    color: #9a9ea7;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+}
